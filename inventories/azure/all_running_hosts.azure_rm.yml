@@ -1,7 +1,7 @@
 plugin: azure_rm
 auth_source: env
 plain_host_names: yes
-exclude_host_filters: ""
+#exclude_host_filters:
 # - powerstate != 'running'
 keyed_groups:
 - prefix: tag
